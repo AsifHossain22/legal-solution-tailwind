@@ -29,6 +29,13 @@
       #banner {
         background-image: url(./images/banner.png);
       }
+      .bg-linear-gradient {
+        background: linear-gradient(
+          180deg,
+          #f3f3f3 0%,
+          rgba(243, 243, 243, 0) 100%
+        );
+      }
     </style>
   </head>
   <body class="font-poppins">
@@ -145,14 +152,14 @@
                 <!-- Search Input -->
                 <div>
                   <input
-                    class="input input-bordered focus:outline-none lg:w-[500px] text-[#414040]"
+                    class="input input-bordered focus:outline-none lg:w-[500px] text-secondary-color"
                     placeholder="Search your services"
                   />
                 </div>
                 <!-- Search Button -->
                 <div class="p-0 md:pl-6 pt-3 md:pt-0">
                   <button
-                    class="btn bg-primary-color text-white hover:bg-[#414040] border-none px-10"
+                    class="btn bg-primary-color text-white hover:bg-secondary-color border-none px-10"
                   >
                     Search
                   </button>
@@ -165,7 +172,191 @@
     </header>
 
     <!-- Main -->
-    <main class="md:container mx-auto"></main>
+    <main class="md:container mx-auto">
+      <!-- LegalPracticeAreaSection -->
+      <section class="py-6 md:py-12 lg:py-24">
+        <!-- SectionHeader -->
+        <div class="text-center px-5">
+          <!-- Title -->
+          <h2 class="text-title-color text-4xl font-extrabold font-EBGaramond">
+            The Legal Practice Area
+          </h2>
+          <!-- Description -->
+          <p class="pt-6 pb-16 lg:px-72 text-text-color font-normal">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <!-- LegalCasesContainer -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- LegalCaseItem - 1 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/business.png"
+                alt="Business Law"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Business Law
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- LegalCaseItem - 2 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/criminal.png"
+                alt="Criminal Law"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Criminal Law
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- LegalCaseItem - 3 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/child.png"
+                alt="Child Support"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Child Support
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- LegalCaseItem - 4 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/education.png"
+                alt="Education Law"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Education Law
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- LegalCaseItem - 5 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/divorce.png"
+                alt="Divorce Law"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Divorce Law
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- LegalCaseItem - 6 -->
+          <div
+            class="card border border-border-color rounded-none bg-gradient-to-b from-[#F3F3F300] to-[#F3F3F300] hover:from-[#F3F3F3] hover:to-[#F3F3F300] duration-300 mx-5 md:mx-0 my-5 md:my-0"
+          >
+            <figure class="px-10 pt-10">
+              <img src="./images/tax.png" alt="Tax Law" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-EBGaramond text-title-color text-3xl">
+                Tax Law
+              </h2>
+              <p class="text-text-color">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <div class="card-actions">
+                <a href="" class="">
+                  <img src="./images/frame.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer></footer>
@@ -181,6 +372,10 @@
             colors: {
               clifford: "#da373d",
               "primary-color": "#B68C5A",
+              "secondary-color": "#414040",
+              "title-color": "#414040",
+              "text-color": "#707070",
+              "border-color": "#F3F3F3",
             },
           },
         },
