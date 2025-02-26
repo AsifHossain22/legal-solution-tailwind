@@ -11,13 +11,32 @@
       rel="stylesheet"
       type="text/css"
     />
+
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-EBGaramond {
+        font-family: "EB Garamond", serif;
+      }
+      .font-poppins {
+        font-family: "Poppins", serif;
+      }
+      #banner {
+        background-image: url(./images/banner.png);
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-poppins">
     <!-- Header -->
     <header class="md:container mx-auto">
       <!-- Navbar -->
-      <nav>
-        <div class="navbar justify-between">
+      <nav class="py-5">
+        <div class="navbar justify-between p-0">
           <div class="w-full lg:w-auto justify-between">
             <!-- HamburgerMenu -->
             <div class="dropdown">
@@ -50,7 +69,7 @@
             </div>
 
             <!-- Logo -->
-            <a href="" class="btn btn-ghost block hover:bg-transparent">
+            <a href="" class="block hover:bg-transparent md:px-4">
               <img src="./images/logo2.png" alt="Header Navbar Logo" />
             </a>
           </div>
@@ -103,10 +122,50 @@
           </div>
         </div>
       </nav>
+      <!-- BannerSection -->
+      <section id="banner" class="bg-no-repeat bg-cover rounded-lg">
+        <!-- BannerContainer -->
+        <div
+          class="lg:py-24 lg:px-60 text-white h-screen flex justify-center items-center"
+        >
+          <!-- Content -->
+          <div class="text-center">
+            <h1 class="font-EBGaramond text-4xl lg:text-7xl font-extrabold">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="pt-6 pb-7 px-14">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+
+            <!-- Search Container -->
+            <div class="text-center">
+              <div class="join flex-col md:flex-row">
+                <!-- Search Input -->
+                <div>
+                  <input
+                    class="input input-bordered focus:outline-none lg:w-[500px] text-[#414040]"
+                    placeholder="Search your services"
+                  />
+                </div>
+                <!-- Search Button -->
+                <div class="p-0 md:pl-6 pt-3 md:pt-0">
+                  <button
+                    class="btn bg-primary-color text-white hover:bg-[#414040] border-none px-10"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!-- Main -->
-    <main></main>
+    <main class="md:container mx-auto"></main>
 
     <!-- Footer -->
     <footer></footer>
