@@ -12,6 +12,9 @@
       type="text/css"
     />
 
+    <!-- FontAwesomeIcon -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+
     <!-- GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- CustomGlobalStyle -->
     <style>
       .font-EBGaramond {
         font-family: "EB Garamond", serif;
@@ -647,15 +651,258 @@
           </div>
         </div>
       </section>
+
+      <!-- ContactSection -->
+      <section class="py-6 md:py-12 lg:py-24">
+        <!-- SectionHeader -->
+        <div class="text-center px-5">
+          <!-- Title -->
+          <h2 class="text-title-color text-4xl font-extrabold font-EBGaramond">
+            Contact With Us
+          </h2>
+          <!-- Description -->
+          <p class="pt-6 pb-16 lg:px-72 text-text-color font-normal">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <!-- Contact Container -->
+        <div class="lg:flex items-center gap-7 mx-5 lg:mx-0">
+          <!-- Contact Info -->
+          <div class="flex-1 grid grid-cols-1 md:grid-cols-2 mb-10 lg:mb-0">
+            <!-- Contact Item - 1 -->
+            <div
+              class="bg-[#F3F3F3] py-10 px-8 text-center space-y-4 border border-r border-b"
+            >
+              <!-- Icon -->
+              <div>
+                <img
+                  src="./images/location.png"
+                  alt="Address"
+                  class="mx-auto"
+                />
+              </div>
+              <!-- Heading -->
+              <h5 class="text-2xl font-extrabold font-EBGaramond">Address</h5>
+              <p class="text-text-color">
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- Contact Item - 2 -->
+            <div
+              class="bg-[#F3F3F3] py-10 px-8 text-center space-y-4 border border-l border-b"
+            >
+              <!-- Icon -->
+              <div>
+                <img src="./images/call.png" alt="Call" class="mx-auto" />
+              </div>
+              <!-- Heading -->
+              <h5 class="text-2xl font-extrabold font-EBGaramond">Call Us</h5>
+              <p class="text-text-color">
+                +88 01750 00 00 00<br />
+                +88 01750 00 00 00
+              </p>
+            </div>
+            <!-- Contact Item - 3 -->
+            <div
+              class="bg-[#F3F3F3] py-10 px-8 text-center space-y-4 border border-t border-r"
+            >
+              <!-- Icon -->
+              <div>
+                <img src="./images/email.png" alt="Email" class="mx-auto" />
+              </div>
+              <!-- Heading -->
+              <h5 class="text-2xl font-extrabold font-EBGaramond">Email Us</h5>
+              <p class="text-text-color">
+                info@gmail.com<br />
+                info@gmail.com
+              </p>
+            </div>
+            <!-- Contact Item - 4 -->
+            <div
+              class="bg-[#F3F3F3] py-10 px-8 text-center space-y-4 border border-t border-l"
+            >
+              <!-- Icon -->
+              <div>
+                <img
+                  src="./images/time.png"
+                  alt="Working Hours"
+                  class="mx-auto"
+                />
+              </div>
+              <!-- Heading -->
+              <h5 class="text-2xl font-extrabold font-EBGaramond">
+                Working Hours
+              </h5>
+              <p class="text-text-color">
+                Mon-Fri: 9AM to 5PM<br />
+                Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+          <!-- Contact Form -->
+          <div class="flex-1">
+            <form class="space-y-8">
+              <!-- Name Input -->
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="input input-bordered w-full focus:outline-none h-16"
+                />
+              </div>
+              <!-- Email Input -->
+              <div>
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="input input-bordered w-full focus:outline-none h-16"
+                />
+              </div>
+              <!-- Subject Input -->
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Email"
+                  class="input input-bordered w-full focus:outline-none h-16"
+                />
+              </div>
+              <!-- Message Input -->
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your Message"
+                  class="input input-bordered w-full focus:outline-none h-20"
+                />
+              </div>
+              <!-- Button Input -->
+              <div>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="w-full btn bg-primary-color text-white hover:bg-secondary-color border-none px-10 h-16"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer class="bg-[#111111] text-[#CFCFCF]">
+      <!-- Footer Container -->
+      <div
+        class="md:container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-20 py-16 lg:py-32 px-8 lg:px-0"
+      >
+        <!-- Col - 1 -->
+        <div>
+          <!-- Logo -->
+          <div class="pb-8">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <!-- Col - 2 -->
+        <div>
+          <!-- Title -->
+          <h5
+            class="text-white text-2xl font-extrabold font-EBGaramond pb-6 lg:pb-12"
+          >
+            Useful Link
+          </h5>
+          <!-- Links -->
+          <div>
+            <ul class="space-y-3">
+              <li>
+                <a href="" class="hover:text-primary-color duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-primary-color duration-300"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-primary-color duration-300"
+                  >Cases</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-primary-color duration-300"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-primary-color duration-300"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Col - 3 -->
+        <div>
+          <!-- Title -->
+          <h5
+            class="text-white text-2xl font-extrabold font-EBGaramond pb-6 lg:pb-12"
+          >
+            Contact Now
+          </h5>
+          <p>
+            555 4th 5t NW, Washington<br />
+            DC 20530, United States
+          </p>
+          <p class="py-4">
+            +88 01750 000 000<br />
+            +88 01750 000 000
+          </p>
+          <p>
+            info@gmail.com<br />
+            info@gmail.com
+          </p>
+        </div>
+        <!-- Col - 4 -->
+        <div>
+          <!-- Title -->
+          <h5
+            class="text-white text-2xl font-extrabold font-EBGaramond pb-6 lg:pb-12"
+          >
+            Contact Now
+          </h5>
+          <!-- Description -->
+          <p>
+            Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+          </p>
+          <!-- Subscribe Input -->
+          <div class="join pt-6">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="input input-bordered join-item focus:outline-none"
+            />
+            <button
+              class="btn bg-primary-color hover:bg-secondary-color text-white join-item"
+            >
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- CustomTailwind -->
+    <!-- CustomTailwindStyle -->
     <script>
       tailwind.config = {
         theme: {
